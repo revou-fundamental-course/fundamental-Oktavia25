@@ -1,0 +1,282 @@
+/*navbar*/
+.nav-container{
+    position: sticky;
+    background: linear-gradient(177deg, rgb(222, 217, 230),#8033e4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.nav-container h1{
+    color: rgba(32, 37, 41, 0.829);
+    position: absolute;
+    padding-bottom: 19px;
+    left: 90px;
+}
+.logo-icon img{
+    width: 50px;
+    height: 50px;
+    padding: 6px 6px 6px 6px;
+}
+
+nav>a {
+    padding: 10px 32px 10px 32px;
+    text-decoration: none;
+    color: rgba(32, 37, 41, 0.829);
+    background-color: #fdfcfd57;
+    border-radius: 12px;
+    margin-right: 5px;
+}
+
+body {
+    background-color: rgb(227, 227, 238);
+}
+.beranda{
+    background-image: url(https://img.freepik.com/premium-vector/abstract-wave-background-with-dynamic-effect-motion-illustration-blue-gold-color-trendy-gradients_181182-3277.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home, .top{
+    padding-top: 15px;
+    text-align: center;
+}
+#tombol {
+    width: 10%;
+    padding: 5px;
+    margin-bottom: 15px;
+    color: rgba(32, 37, 41, 0.829);
+    border: none;   
+}
+
+.banner-container {
+    height: auto;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+}
+
+.gambar-slide>img{
+    height: 100%;
+    width: 100%;
+}
+
+/*our profil*/
+h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 25px;
+    
+}
+#our-profile {
+    background-image: url(https://png.pngtree.com/png-clipart/20190614/original/pngtree-hand-drawn-food-png-image_3711710.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 80vh;
+}
+
+.profile-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile-item { 
+    flex: 1;
+    text-align: -webkit-center;
+}
+
+.profile-icon {
+    height: 100px;
+    width: 100px; 
+
+    /* for image icom */
+    background-size: cover;
+    border-radius: 50%;   
+}
+.profile-item>p {
+    border: 1px solid;
+    border: groove;
+    margin: 105px 85px 15px 85px;
+    padding: 3px;
+    background-color: rgba(111, 85, 206, 0.932);
+}
+.profile-item>img {
+    width: 250px;
+    height: 200px;
+}
+
+.profile-1 {
+    background-image: url(../assets/1-removebg-preview.png);
+    flex: 1;
+}
+.profile-2 {
+    background-image: url(../assets/1-removebg-preview.png);
+    flex: 1;
+}
+.profile-3 {
+    background-image: url(../assets/1-removebg-preview.png);
+    flex: 1;
+}
+
+/* Portfolio */
+#portfolio {
+    background-image: url(https://img.freepik.com/premium-vector/abstract-wave-background-with-dynamic-effect-motion-illustration-blue-gold-color-trendy-gradients_181182-3277.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.main {
+    display: flex;   
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+}
+.detail {
+    padding-left: 250px;
+}
+
+.main h1 {
+    font-size: 2.5rem;
+    
+    font-weight: 600;
+    color: #000;
+    /* animation: check 1s ease forwards;
+    animation-delay: .1s; */
+}
+h3{
+    padding-left: 70px;
+}
+
+.main p {
+    margin-top: 1rem;
+    font-size: .98rem;
+    color: #000;
+    padding-left: 70px;
+}
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+    margin-top: 1.7rem;
+    padding-left: 70px
+}
+
+.social a {
+    width: 26px;
+}
+
+.images {
+    width: 50%;  
+}
+
+/* message us*/
+#message {
+    background-image: url(https://img.freepik.com/premium-vector/abstract-wave-background-with-dynamic-effect-motion-illustration-blue-gold-color-trendy-gradients_181182-3277.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+/*form*/
+.end {
+  display: flex;  
+}
+
+.form-message {
+  display: flex; 
+}
+
+.form-message.hh1{
+    align-items: center;       
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(6px);
+    padding: 20px;    
+}
+
+input[type=text], input[type=date], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+
+input[type=submit] {
+    width: 109%;
+    padding: 12px;
+}
+
+.form-message.hh2 {
+    display: flow;
+    align-items: center;       
+    background-color: rgba(255, 255, 255, 0.329);
+    backdrop-filter: blur(3px);
+    padding: 20px;     
+    margin-right: 20px ;
+}
+
+.hh1 {  
+    flex: 1;
+}
+
+.hh2 {
+    flex: 1;
+}
+
+/*footer*/
+hr {
+    color: #ff8c00;
+}
+.footer-1 {
+    background: linear-gradient(177deg, #8033e4, rgb(222, 217, 230));
+    text-align: end;
+    border-radius: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+    /*navbar*/
+    .nav-container{
+        flex-direction: column;    
+    }
+    .judul{
+        display: contents;
+    }
+    nav{
+        display: contents;
+        width: 100%;       
+    }
+    /*our-profile*/
+    #our-profile{
+        height: auto;
+    }
+    .profile-content {
+        flex-direction: column;      
+    }
+    /*portfolio*/
+    .detail{
+        display: contents;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .social{
+        flex-direction: column;
+    }
+    img{
+        width: -webkit-fill-available;
+    }
+    /*message*/
+    .end{
+        flex-direction: column;
+    }
+    .form-message {
+        flex-direction: column;
+    }
+}

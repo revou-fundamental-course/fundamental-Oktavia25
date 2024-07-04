@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <!-- icon website -->      
+        <link rel="icon" href="assets/1-removebg-preview.png">     
+        <title>Miniproject</title>
+    </head>
+    <body>
+        <hr/>
+        <!--navbar-->
+        <header class="nav-container">           
+            <div class="logo-icon"><img src="assets/1-removebg-preview.png" ></div>
+            <h1 class="judul">Miniproject RevoU</h1>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#our-profile">Our Profile</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#message">Message Us</a>
+            </nav>
+        </header>
+        <hr/>
+
+        <main class="beranda">
+            <!-- ini Home Content --> 
+            <section id="home">
+                <header>
+                    <h1>Hii <span id="name">oktavia</span> Welcome To My Website</h1>
+                </header>
+            </section>
+            <article class="top">
+                <p> This is website about me</p>
+                <button id="tombol">Ganti nama</button>
+                
+            </article>
+
+            <section class="banner-container">
+               <!-- Gambar slide --> 
+                <div class="gambar-slide">
+                    <img 
+                    class="img-slideshow"
+                    src="assets/p.jpg"
+                    />
+                    <img 
+                    class="img-slideshow"
+                    src="assets/e.webp"
+                    />
+                    <img 
+                    class="img-slideshow"
+                    src="assets/r.jpeg"
+                    />
+                    <br>
+                    <button onclick="plusDivs(-1)">Previous</button>
+                    <button onclick="plusDivs(1)">Next</button>
+                </div>
+            </section>
+        </main>
+        <hr/>
+        <!-- ini Our Profile -->
+        <section id="our-profile">
+            <header>
+                <h1>Bisnis</h1>
+            </header>
+            <article class="profile-content">
+                <div class="profile-item">
+                    <div class="profile-icon profile-1"></div>
+                    <p>Coffee Shop</p> 
+                    <img src="https://nibble-images.b-cdn.net/nibble/original_images/coffee_shop_paling_enak_di_jakarta_00_d2523bbd3b_BaIdkmNe4.jpg">
+                                      
+                </div>
+                <div class="profile-item">
+                    <div class="profile-icon profile-2"></div>
+                      <p>Steak Addict</p>
+                      <img src="https://media-cdn.tripadvisor.com/media/photo-s/0e/ae/e3/a1/img-20170304-210316-831.jpg">                 
+                </div>
+                <div class="profile-item">
+                    <div class="profile-icon profile-3"></div>
+                      <p>Mie Ladaland</p>   
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnzBvlIM6IH63CvZxPbU8iaGmz4rmeiSq-8g&s">              
+                </div>
+
+            </article>
+        </section>
+        <hr/>
+        <!-- ini Portfolio --> 
+        <section id="portfolio">
+            <header>
+                <h1>Portfolio</h1>
+            </header>
+            <div class="main">
+                <div class="detail">
+                    <h1>Hi, I'm <span style="color:#8033e4; font-size: 2.5rem;">Oktavia</span></h1>
+                    <h3>Web Developer</h3>
+                    <p>I'm a profesional Web Developer. Our Main Goal to help & <br>Satisficed the Local & Global Clients by web development <br>solutions</p>
+                    <div class="social">
+                        <a href="https://wa.me/6282262068716"><img src="assets/wa-removebg-preview.png" style="width: 55px; height: 55px; "></a>
+                        <a href="https://instagram.com/oktaviaalvira_?igshid=YmMyMTA2M2Y="><img src="https://png.pngtree.com/png-clipart/20180518/ourmid/pngtree-instagram-icon-instagram-logo-png-image_3571406.png" style="width: 55px; height: 55px; "></a>
+                        <a href="#"><img src="https://static.vecteezy.com/system/resources/previews/018/930/698/original/facebook-logo-facebook-icon-transparent-free-png.png" style="width: 55px; height: 55px; "></a>
+                        <a href="#"><img src="https://ysukmgl.com/wp-content/uploads/2020/10/twitter-logo-transparent-png-stickpng-twitter-logo-png-1687_1687.png" style="width: 60px; height: 55px; "></a>
+                    </div>
+                </div>
+                <!-- images profile -->
+                <div class="images">
+                    <img src="assets/11.png" >
+                </div>
+                <style>
+                    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+                </style>
+            </div>
+
+        </section>
+        <hr/>
+           
+        <!-- ini Message Us --> 
+        <section id="message">
+            <header>
+                <h1>Message Us</h1>
+            </header>
+            <!-- ini form-->
+            <article class="end">
+                
+                <div class="form-message hh1">
+                    <form name="message-form" onsubmit="return validateForm()">
+                        Nama : <input placeholder="Nama" type="text" name="full-name" />
+                        <br />
+
+                        Tanggal Lahir :
+                        <input type="date" name="birth-date" />
+                        <br />
+
+                        Jenis Kelamin :
+                        <input type="radio" id="male" name="gender" value="Laki-laki" />
+                        <label for="male">Laki-laki</label>
+                        <input type="radio" id="female" name="gender" value="Perempuan" />
+                        <label for="female">Perempuan</label>
+                        <br />
+
+                        Pesan :
+                        <textarea placeholder="Pesan" name="messages"></textarea>
+                        <br />
+
+                        <input type="submit" value="Submit" />
+                    </form>
+                
+                </div>
+                <!-- ini output-->
+                <div class="form-message hh2">
+                    <p>Nama: <span id="sender-full-name"></span></p>
+                    <p>Tanggal Lahir: <span id="sender-birth-date"></span></p>
+                    <p>Jenis Kelamin: <span id="sender-gender"></span></p>
+                    <p>Pesan: <span id="sender-messages"></span></p>
+                </div>
+            
+            </article>
+        </section>  
+        <script type="text/javascript" src="js/script.js"></script>    
+    </body>
+    <!-- footer -->
+    <footer class="footer-1">
+        <hr />
+        <h5> RevoU Miniproject 2024 &nbsp; </h5>
+        <hr />
+    </footer>
+
+</html>
